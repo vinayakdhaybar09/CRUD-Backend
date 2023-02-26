@@ -9,7 +9,7 @@ const mysql = require("mysql2")
 const db = mysql.createPool({
     host: "localhost",
     user: "root",
-    password: "vinayaK@0909",
+    password: "******",
     database: "crud_contact",
 })
 db.getConnection((err)=>{
